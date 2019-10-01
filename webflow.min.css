@@ -2390,20 +2390,6 @@ figcaption {
     color: #fff
 }
 
-.button.icon-button {
-    padding-top: 10px;
-    padding-left: 51px;
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e826ae6d5d2_Icon-download.png);
-    background-position: 21px 50%;
-    background-size: 16px;
-    background-repeat: no-repeat
-}
-
-.button.icon-button.download {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e826ae6d5d2_Icon-download.png);
-    color: #fff
-}
-
 .button.icon-button.download.green {
     margin-top: 30px;
     color: #fff
@@ -2807,51 +2793,11 @@ figcaption {
     margin-top: -180px
 }
 
-.video-lightbox-block {
-    overflow: hidden;
-    height: 400px;
-    border-radius: 4px;
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e555fe6d642_Photo-8.jpg);
-    background-position: 50% 50%;
-    background-size: cover
-}
-
-.video-lightbox-block.large {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e1d6fe6d638_Photo-6.jpg)
-}
-
-.video-lightbox-block.about-us {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e555fe6d642_Photo-8.jpg)
-}
-
 .video-lightbox-overlay {
     position: relative;
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,.2)
-}
-
-.video-lightbox-button {
-    position: absolute;
-    left: 0;
-    top: 49%;
-    right: 20px;
-    display: block;
-    width: 60px;
-    height: 60px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 0;
-    padding-left: 2px;
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e2d63e6d5ce_Icon-play-white.png);
-    background-position: 0 0;
-    background-size: cover;
-    transform: translate(0,-50%);
-    -webkit-transition: -webkit-transform .2s ease;
-    transition: -webkit-transform .2s ease;
-    transition: transform .2s ease;
-    transition: transform .2s ease,-webkit-transform .2s ease;
-    text-align: center
 }
 
 .image-section,.image-section.clients,.portfolio-image-block {
@@ -2945,21 +2891,6 @@ figcaption {
     padding-top: 40px;
     padding-bottom: 30px;
     box-shadow: none
-}
-
-.portfolio-image-block {
-    position: relative;
-    display: block;
-    overflow: hidden;
-    width: 100%;
-    height: 270px;
-    border-radius: 4px;
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e1dcde6d63f_Photo-13.jpg)
-}
-
-.portfolio-image-block.large {
-    height: 560px;
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69eebbbe6d634_Photo-2.jpg)
 }
 
 .portfolio-overlay-block {
@@ -3107,57 +3038,6 @@ figcaption {
     padding-right: 30px
 }
 
-.image-section {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b17fa70b7552c467af985bf_Img-Technology-dots.jpg)
-}
-
-.image-section.clients {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5be35e386f791b1800a39c2a_IMG-Partners-02.jpg);
-    background-attachment: fixed
-}
-
-.image-section.get-the-app {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69ed259e6d637_Photo-4.jpg);
-    background-position: 50% 30%
-}
-
-.image-section.quote {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e8184e6d635_Photo-3.jpg)
-}
-
-.image-section.pricing {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e14c4e6d56d_Photo-1.jpg);
-    background-size: cover
-}
-
-.image-section.newsletter {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e1d6fe6d638_Photo-6.jpg)
-}
-
-.image-section.avatars {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e20c6e6d5a8_Job-seeker-image.jpg);
-    background-position: 50% 67%;
-    background-size: contain
-}
-
-.image-section.about-us {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e1715e6d636_Photo-5.jpg)
-}
-
-.image-section.about-us-2,.image-section.about-us-3 {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e14c4e6d56d_Photo-1.jpg)
-}
-
-.image-section.ui-section {
-    padding-top: 90px;
-    padding-bottom: 90px;
-    background-color: #eee;
-    background-image: linear-gradient(86deg,#eee 39%,hsla(0,0%,93.3%,.2)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e100be6d568_UI-Elements.jpg);
-    background-position: 0 0,100% 50%;
-    background-size: auto,auto 700px;
-    background-repeat: repeat,no-repeat
-}
-
 .image-section-overlay {
     width: 100%;
     height: 100%;
@@ -3200,23 +3080,6 @@ figcaption {
     padding-top: 115px;
     padding-bottom: 185px;
     background-color: rgba(31,111,255,.9)
-}
-
-.image-section-overlay.black {
-    max-height: 400px;
-    padding-top: 90px;
-    background-color: rgba(27,28,31,.77);
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(27,28,31,.79)),to(rgba(27,28,31,.79))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b806e3792736b30587d18b9_Img-Schedule-Your-Demo-03.jpg);
-    background-image: linear-gradient(180deg,rgba(27,28,31,.79),rgba(27,28,31,.79)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b806e3792736b30587d18b9_Img-Schedule-Your-Demo-03.jpg);
-    background-position: 0 0,50% 50%;
-    background-size: auto,cover
-}
-
-.image-section-overlay.black.subpage-footer-image {
-    padding-top: 115px;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.53)),to(rgba(0,0,0,.53))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b214d277fcaa10acafc6b3d_Img-Footer-MediaAndRetail-Page.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.53),rgba(0,0,0,.53)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b214d277fcaa10acafc6b3d_Img-Footer-MediaAndRetail-Page.jpg);
-    background-size: auto,cover
 }
 
 .image-section-overlay.white-gradient {
@@ -3470,29 +3333,9 @@ figcaption {
     color: #fff
 }
 
-.footer-link.social {
-    padding-left: 20px;
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69ec5c5e6d5cd_Icon-facebook.png);
-    background-position: 0 50%;
-    background-size: 12px;
-    background-repeat: no-repeat
-}
-
 .image-hero,.team-image-block {
     background-position: 50% 0;
     background-size: cover
-}
-
-.footer-link.social.youtube {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e2d63e6d5ce_Icon-play-white.png)
-}
-
-.footer-link.social.google {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e00b7e6d5fc_Icon-google.png)
-}
-
-.footer-link.social.twitter {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e9465e6d619_Icon-twitter.png)
 }
 
 .features-row {
@@ -3789,26 +3632,6 @@ figcaption {
     transition: opacity 242ms ease
 }
 
-.image-hero {
-    background-color: #0f1011;
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e4ac0e6d5fd_Photo-2.jpg)
-}
-
-.image-hero.busines-2 {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69ead8ae6d641_Photo-11.jpg);
-    background-position: 50% 50%;
-    background-size: cover
-}
-
-.image-hero.download {
-    padding-top: 190px;
-    padding-bottom: 120px;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.4)),to(rgba(0,0,0,.4))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e08ede6d648_Photo-9.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.4),rgba(0,0,0,.4)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e08ede6d648_Photo-9.jpg);
-    background-position: 0 0,50% 0;
-    background-size: auto,cover
-}
-
 .contact-form {
     display: block;
     width: 550px;
@@ -4089,50 +3912,9 @@ figcaption {
     box-shadow: none
 }
 
-.video-lightbox-image-block {
-    position: relative;
-    display: block;
-    overflow: visible;
-    width: 125%;
-    height: 100%;
-    border-radius: 4px;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.1)),to(rgba(0,0,0,.1))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b1d90b5988ef97a00806040_Video%20Smart%20City%20Facev.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.1),rgba(0,0,0,.1)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b1d90b5988ef97a00806040_Video%20Smart%20City%20Facev.jpg);
-    background-position: 0 0,50% 50%;
-    background-size: auto,cover;
-    box-shadow: 4px 4px 33px 0 rgba(0,0,0,.42)
-}
-
-.video-lightbox-image-block.hero {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e9239e6d643_Photo-7.jpg);
-    background-position: 50% 50%;
-    background-size: cover;
-    text-align: center
-}
-
-.video-lightbox-image-block.small-hero {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e555fe6d642_Photo-8.jpg);
-    background-position: 50% 50%;
-    background-size: cover
-}
-
 .pricing-block.image,.video-lightbox-image-block.slider {
     background-position: 0 0,50% 50%;
     background-size: auto,cover
-}
-
-.video-lightbox-image-block.slider {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.1)),to(rgba(0,0,0,.1))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e1dcde6d63f_Photo-13.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.1),rgba(0,0,0,.1)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e1dcde6d63f_Photo-13.jpg)
-}
-
-.video-lightbox-image-block.vehicle-image {
-    right: 115px;
-    margin-right: 0;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(transparent),to(transparent)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b1d9c03c59e5c9330843a61_Video%20Smart%20City%20Vehicles.jpg);
-    background-image: linear-gradient(180deg,transparent,transparent),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b1d9c03c59e5c9330843a61_Video%20Smart%20City%20Vehicles.jpg);
-    background-size: auto,cover;
-    box-shadow: 4px 4px 33px 0 rgba(0,0,0,.33)
 }
 
 .long-feature-block {
@@ -4205,12 +3987,6 @@ figcaption {
     border-radius: 4px;
     background-color: #f0f4f7;
     text-align: center
-}
-
-.pricing-block.image {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.5))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e08ede6d648_Photo-9.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e08ede6d648_Photo-9.jpg);
-    color: #fff
 }
 
 .pricing-title {
@@ -4675,17 +4451,6 @@ figcaption {
     color: #e1e1e4
 }
 
-.portfolio-item-block {
-    display: block;
-    width: 100%;
-    height: 160px;
-    margin-bottom: 20px;
-    border-radius: 4px;
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e555fe6d642_Photo-8.jpg);
-    background-position: 50% 50%;
-    background-size: cover
-}
-
 .portfolio-item-block:hover {
     opacity: .9
 }
@@ -4990,31 +4755,8 @@ figcaption {
     right: 0
 }
 
-.home-intro-link-block {
-    display: block;
-    overflow: hidden;
-    width: 100%;
-    height: 340px;
-    border-radius: 3px;
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e26d2e6d651_Home-Business-1.jpg);
-    background-position: 50% 0;
-    background-size: cover;
-    box-shadow: 0 0 20px 0 rgba(0,0,0,.3);
-    text-decoration: none
-}
-
 .home-intro-link-block:hover {
     text-decoration: none
-}
-
-.home-intro-link-block._2 {
-    height: 450px;
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e55f8e6d652_Home-Business-2.jpg);
-    background-size: cover
-}
-
-.home-intro-link-block._3 {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e09ede6d64d_Home-App.jpg)
 }
 
 .intro-block-overlay {
@@ -5165,16 +4907,6 @@ figcaption {
     text-align: left
 }
 
-.iphone-hero {
-    overflow: hidden;
-    padding-top: 200px;
-    padding-bottom: 130px;
-    background-color: #353942;
-    background-image: linear-gradient(135deg,rgba(53,57,66,.8),#2a2e36),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69ed259e6d637_Photo-4.jpg);
-    background-position: 0 0,50% 0;
-    background-size: auto,cover
-}
-
 .nav-menu-content-block {
     margin-top: 40px;
     padding: 20px;
@@ -5208,24 +4940,6 @@ figcaption {
     color: #1f6fff;
     font-size: 16px;
     font-weight: 700
-}
-
-.half-image-section {
-    position: relative;
-    width: 50%;
-    height: 500px;
-    float: left;
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b1d90b5988ef97a00806040_Video%20Smart%20City%20Facev.jpg);
-    background-position: 0 0;
-    background-size: cover
-}
-
-.half-image-section.right {
-    position: relative;
-    float: right;
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b1d9c03c59e5c9330843a61_Video%20Smart%20City%20Vehicles.jpg);
-    background-position: 0 0;
-    background-size: 664px
 }
 
 .half-content-section {
@@ -5390,62 +5104,8 @@ figcaption {
     color: #252525
 }
 
-.subpage-header {
-    padding-top: 190px;
-    padding-bottom: 130px;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.7)),to(rgba(0,0,0,.45))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b23e0493409393fbd68e628_Img-Media-Page.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.7),rgba(0,0,0,.45)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b23e0493409393fbd68e628_Img-Media-Page.jpg);
-    background-position: 0 0,50% 100%;
-    background-size: auto,cover;
-    color: #fff;
-    text-align: center
-}
-
 .subpage-header.contact,.subpage-header.contact-1,.subpage-header.contact-2,.subpage-header.with-contact-info {
     background-position: 0 0,50% 50%;
-    background-size: auto,cover
-}
-
-.subpage-header.contact {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(31,111,255,.9)),to(rgba(31,111,255,.9))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e1715e6d636_Photo-5.jpg);
-    background-image: linear-gradient(180deg,rgba(31,111,255,.9),rgba(31,111,255,.9)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e1715e6d636_Photo-5.jpg);
-    color: #fff
-}
-
-.subpage-header.contact-2 {
-    background-image: linear-gradient(135deg,rgba(31,111,255,.9) 24%,rgba(31,174,255,.9)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e555fe6d642_Photo-8.jpg)
-}
-
-.subpage-header.contact-1 {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(31,111,255,.87)),to(rgba(31,111,255,.87))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69ed259e6d637_Photo-4.jpg);
-    background-image: linear-gradient(180deg,rgba(31,111,255,.87),rgba(31,111,255,.87)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69ed259e6d637_Photo-4.jpg)
-}
-
-.subpage-header.with-contact-info {
-    position: relative;
-    padding-bottom: 230px;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.6)),to(rgba(0,0,0,.6))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e9ef7e6d5b8_Photo-5.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.6),rgba(0,0,0,.6)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e9ef7e6d5b8_Photo-5.jpg)
-}
-
-.subpage-header.pricing-1 {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.4)),to(rgba(0,0,0,.4))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e14c4e6d56d_Photo-1.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.4),rgba(0,0,0,.4)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e14c4e6d56d_Photo-1.jpg);
-    background-position: 0 0,0 0;
-    background-size: auto,cover
-}
-
-.subpage-header.pricing-3 {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(31,111,255,.7)),to(rgba(31,111,255,.7))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e57a2e6d623_Photo-12.jpg);
-    background-image: linear-gradient(180deg,rgba(31,111,255,.7),rgba(31,111,255,.7)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e57a2e6d623_Photo-12.jpg);
-    background-position: 0 0,50% 50%;
-    background-size: auto,cover
-}
-
-.subpage-header.pricing-2 {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.6)),to(rgba(0,0,0,.6))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e08ede6d648_Photo-9.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.6),rgba(0,0,0,.6)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e08ede6d648_Photo-9.jpg);
-    background-position: 0 0,50% 100%;
     background-size: auto,cover
 }
 
@@ -5454,151 +5114,9 @@ figcaption {
     background-size: auto,cover
 }
 
-.subpage-header.pricing-4 {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.4)),to(rgba(0,0,0,.4))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e14c4e6d56d_Photo-1.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.4),rgba(0,0,0,.4)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e14c4e6d56d_Photo-1.jpg)
-}
-
-.subpage-header.about-1 {
-    padding-top: 190px;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(25,27,31,.8)),to(rgba(25,27,31,.8))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69ed259e6d637_Photo-4.jpg);
-    background-image: linear-gradient(180deg,rgba(25,27,31,.8),rgba(25,27,31,.8)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69ed259e6d637_Photo-4.jpg);
-    text-align: left
-}
-
-.subpage-header.pricing-5 {
-    padding-bottom: 200px;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(31,111,255,.8)),to(rgba(31,111,255,.8))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e1715e6d636_Photo-5.jpg);
-    background-image: linear-gradient(180deg,rgba(31,111,255,.8),rgba(31,111,255,.8)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e1715e6d636_Photo-5.jpg)
-}
-
-.subpage-header.about-2 {
-    padding-top: 180px;
-    padding-bottom: 90px;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(31,111,255,.8)),to(rgba(31,111,255,.8))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e0b5de6d5a6_Photo-5.jpg);
-    background-image: linear-gradient(180deg,rgba(31,111,255,.8),rgba(31,111,255,.8)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e0b5de6d5a6_Photo-5.jpg)
-}
-
-.subpage-header.about-3 {
-    padding-bottom: 150px;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#000),color-stop(94%,rgba(0,0,0,.25))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b242315932c87d4082c0e7c_IMG-About-Us-01.jpg);
-    background-image: linear-gradient(180deg,#000,rgba(0,0,0,.25) 94%),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b242315932c87d4082c0e7c_IMG-About-Us-01.jpg);
-    background-position: 0 0,50% -5px
-}
-
 .subpage-header.about-5,.subpage-header.blog-1,.subpage-header.ui {
     background-position: 0 0,50% 50%;
     background-size: auto,cover
-}
-
-.subpage-header.about-5 {
-    padding-top: 250px;
-    padding-bottom: 170px;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.5))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e1d6fe6d638_Photo-6.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e1d6fe6d638_Photo-6.jpg)
-}
-
-.subpage-header.ui {
-    padding-top: 210px;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.5))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e4ac0e6d5fd_Photo-2.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e4ac0e6d5fd_Photo-2.jpg)
-}
-
-.subpage-header.blog-1 {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(31,111,255,.9)),to(rgba(31,111,255,.9))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69ed259e6d637_Photo-4.jpg);
-    background-image: linear-gradient(180deg,rgba(31,111,255,.9),rgba(31,111,255,.9)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69ed259e6d637_Photo-4.jpg)
-}
-
-.subpage-header-about.blog-1,.subpage-header.sign-up-1 {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(31,111,255,.9)),to(rgba(31,111,255,.9))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69ed259e6d637_Photo-4.jpg)
-}
-
-.subpage-header.sign-up-1 {
-    background-image: linear-gradient(180deg,rgba(31,111,255,.9),rgba(31,111,255,.9)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69ed259e6d637_Photo-4.jpg);
-    background-position: 0 0,50% 0;
-    background-size: auto,cover
-}
-
-.subpage-header.blog-2 {
-    padding-top: 125px;
-    padding-bottom: 0;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(28,35,49,.9)),to(rgba(28,35,49,.9))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e1d6fe6d638_Photo-6.jpg);
-    background-image: linear-gradient(180deg,rgba(28,35,49,.9),rgba(28,35,49,.9)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e1d6fe6d638_Photo-6.jpg);
-    background-position: 0 0,50% 50%;
-    background-size: auto,cover
-}
-
-.subpage-header.smart-city-image {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.7)),to(rgba(0,0,0,.45))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b23dcd1932c8775d92bac66_Img-Smart-City-Page.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.7),rgba(0,0,0,.45)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b23dcd1932c8775d92bac66_Img-Smart-City-Page.jpg);
-    background-position: 0 0,50% 50%
-}
-
-.subpage-header.retail-image {
-    padding-bottom: 130px;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.7)),to(rgba(0,0,0,.45))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b23dee0d09b8694bacfc6f0_Img-Retail-Page.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.7),rgba(0,0,0,.45)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b23dee0d09b8694bacfc6f0_Img-Retail-Page.jpg);
-    background-position: 0 0,50% 100%
-}
-
-.subpage-header.smart-city-landing-image {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.7)),to(rgba(0,0,0,.45))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5be45032ee25ff1036a5af1f_Hero-Image-Landing-Smart-City.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.7),rgba(0,0,0,.45)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5be45032ee25ff1036a5af1f_Hero-Image-Landing-Smart-City.jpg);
-    background-position: 0 0,50% 50%;
-    background-attachment: scroll,fixed
-}
-
-.subpage-header.computer-vision-landing-image {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.7)),to(rgba(0,0,0,.45))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5bdc9117c3b0fca51d047e0a_Hero-Image-Landing-Smart-City.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.7),rgba(0,0,0,.45)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5bdc9117c3b0fca51d047e0a_Hero-Image-Landing-Smart-City.jpg)
-}
-
-.subpage-header.thank-you-01 {
-    padding-top: 210px;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.5))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b242315932c87d4082c0e7c_IMG-About-Us-01.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b242315932c87d4082c0e7c_IMG-About-Us-01.jpg);
-    background-position: 0 0,50% 50%;
-    background-size: auto,cover
-}
-
-.subpage-header.thank-you-02 {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.53)),to(rgba(0,0,0,.53))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b242315932c87d4082c0e7c_IMG-About-Us-01.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.53),rgba(0,0,0,.53)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b242315932c87d4082c0e7c_IMG-About-Us-01.jpg);
-    background-position: 0 0,50% 50%;
-    background-size: auto,cover
-}
-
-.subpage-header.smart-city-landing-facial {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.7)),to(rgba(0,0,0,.45))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5be5fa3af3e6d404f3c71d29_Landing-SmartCity-FacialRecognition.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.7),rgba(0,0,0,.45)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5be5fa3af3e6d404f3c71d29_Landing-SmartCity-FacialRecognition.jpg);
-    background-position: 0 0,100% 50%;
-    background-attachment: scroll,fixed
-}
-
-.subpage-header.smart-city-landing-vehicle {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.7)),to(rgba(0,0,0,.45))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5bec5d652255bdd890cf00fa_Landing-SmartCity-VehicleRecognition.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.7),rgba(0,0,0,.45)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5bec5d652255bdd890cf00fa_Landing-SmartCity-VehicleRecognition.jpg);
-    background-position: 0 0,50% 50%;
-    background-attachment: scroll,fixed
-}
-
-.subpage-header.computer-vision-landing-vehicle {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.7)),to(rgba(0,0,0,.45))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5bec5fb6e23e1a51ed377e59_Landing-ComputerVision-VehicleRecognition.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.7),rgba(0,0,0,.45)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5bec5fb6e23e1a51ed377e59_Landing-ComputerVision-VehicleRecognition.jpg);
-    background-position: 0 0,0 50%;
-    background-attachment: scroll,fixed
-}
-
-.subpage-header.computer-vision-landing-people {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.7)),to(rgba(0,0,0,.45))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5bec61831426a105c907086c_Landing-ComputerVision-PeopleDetection.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.7),rgba(0,0,0,.45)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5bec61831426a105c907086c_Landing-ComputerVision-PeopleDetection.jpg);
-    background-position: 0 0,50% 50%;
-    background-attachment: scroll,fixed
-}
-
-.subpage-header.computer-vision-landing-visualrecog {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.7)),to(rgba(0,0,0,.45))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b242315932c87d4082c0e7c_IMG-About-Us-01.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.7),rgba(0,0,0,.45)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b242315932c87d4082c0e7c_IMG-About-Us-01.jpg)
 }
 
 .white-contact-form {
@@ -6016,18 +5534,6 @@ figcaption {
     margin-bottom: 60px
 }
 
-.team-image {
-    width: 170px;
-    height: 170px;
-    margin-right: 40px;
-    margin-bottom: 157px;
-    float: left;
-    border-radius: 100px;
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e7139e6d5da_Testimonial-12.jpg);
-    background-position: 50% 50%;
-    background-size: cover
-}
-
 .team-title {
     font-size: 20px;
     font-weight: 600
@@ -6105,22 +5611,8 @@ figcaption {
     height: 15px
 }
 
-.image-block-right {
-    height: 200px;
-    border-radius: 4px;
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e1715e6d636_Photo-5.jpg)
-}
-
 .text-column-left {
     padding-right: 40px
-}
-
-.image-block {
-    position: relative;
-    overflow: hidden;
-    height: 240px;
-    border-radius: 5px;
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e9239e6d643_Photo-7.jpg)
 }
 
 .image-block-column-left {
@@ -6158,50 +5650,6 @@ figcaption {
 .gallery-lightbox.small-gallery {
     width: 96%;
     margin-bottom: 10px
-}
-
-.gallery-image-block {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 300px;
-    border-radius: 4px;
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e50aae6d5b6_Photo-10.jpg);
-    background-position: 50% 50%;
-    background-size: cover
-}
-
-.gallery-image-block._2 {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e8db9e6d624_Photo-3.jpg)
-}
-
-.gallery-image-block._3 {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e5857e6d62f_Z-1.jpg)
-}
-
-.gallery-image-block.small {
-    height: 100px;
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e5ba1e6d640_Photo-12.jpg)
-}
-
-.gallery-image-block.small._2 {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e555fe6d642_Photo-8.jpg)
-}
-
-.gallery-image-block.small._3 {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e9239e6d643_Photo-7.jpg)
-}
-
-.gallery-image-block.small._4 {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e08ede6d648_Photo-9.jpg)
-}
-
-.gallery-image-block.small._5 {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69eebbbe6d634_Photo-2.jpg)
-}
-
-.gallery-image-block.small._6 {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e8184e6d635_Photo-3.jpg)
 }
 
 .gallery-overlay-icon {
@@ -6409,14 +5857,6 @@ figcaption {
 
 .element-container.navigation._2 {
     background-color: #39404d
-}
-
-.element-container.navigation._3 {
-    height: 130px;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.5))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e54a8e6d618_Photo-6.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e54a8e6d618_Photo-6.jpg);
-    background-position: 0 0,50% 50%;
-    background-size: auto,cover
 }
 
 .logo {
@@ -7033,24 +6473,6 @@ figcaption {
     text-align: center
 }
 
-.full-sign-up-block {
-    display: flex;
-    width: 65%;
-    height: 100%;
-    padding-right: 20px;
-    padding-left: 20px;
-    float: left;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    background-color: #1f6fff;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(31,111,255,.8)),to(rgba(31,111,255,.8))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e8184e6d635_Photo-3.jpg);
-    background-image: linear-gradient(180deg,rgba(31,111,255,.8),rgba(31,111,255,.8)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e8184e6d635_Photo-3.jpg);
-    background-position: 0 0,50% 50%;
-    background-size: auto,cover
-}
-
 .full-page-sign-up-form,.sign-up-info-wrapper {
     display: block;
     margin-right: auto;
@@ -7197,26 +6619,10 @@ figcaption {
     background-image: linear-gradient(180deg,rgba(0,0,0,.5),rgba(0,0,0,.5)),linear-gradient(180deg,rgba(0,0,0,.74),rgba(0,0,0,.74))
 }
 
-.slide {
-    padding-top: 250px;
-    padding-bottom: 130px;
-    background-color: rgba(5,14,20,.73);
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.47)),to(rgba(0,0,0,.47))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69ed259e6d637_Photo-4.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.47),rgba(0,0,0,.47)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69ed259e6d637_Photo-4.jpg);
-    background-position: 0 0,0 0;
-    background-size: auto,cover
-}
-
 .slide-2,.slide-3,.slide.iphone-hero {
     padding-top: 15%;
     background-position: 0 0,50% 50%;
     background-size: auto,cover
-}
-
-.slide.iphone-hero {
-    padding-bottom: 0;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.91)),color-stop(44%,rgba(5,9,17,.78)),to(rgba(44,87,163,.27))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b23da3f932c87093d2ba967_Img-Hero-SmartCity-01.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.91),rgba(5,9,17,.78) 44%,rgba(44,87,163,.27)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b23da3f932c87093d2ba967_Img-Hero-SmartCity-01.jpg)
 }
 
 .image-3 {
@@ -7249,19 +6655,6 @@ figcaption {
     height: 25px;
     margin-right: 15px;
     float: left
-}
-
-.slide-2 {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#000),to(rgba(0,0,0,.32))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b23cb356f08f732fae897a3_Img-Hero-Ecommerce.jpg);
-    background-image: linear-gradient(180deg,#000,rgba(0,0,0,.32)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b23cb356f08f732fae897a3_Img-Hero-Ecommerce.jpg);
-    background-attachment: scroll,scroll
-}
-
-.slide-3 {
-    top: -1px;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#000),to(rgba(0,0,0,.19))),url(https://wordstream-files-prod.s3.amazonaws.com/s3fs-public/styles/simple_image/public/images/google-analytics-tips-illustration.jpg);
-    background-image: linear-gradient(180deg,#000,rgba(0,0,0,.19)),url(https://wordstream-files-prod.s3.amazonaws.com/s3fs-public/styles/simple_image/public/images/google-analytics-tips-illustration.jpg);
-    background-attachment: scroll,scroll
 }
 
 .slide-4,.slide-5,.slide-6 {
@@ -7386,12 +6779,6 @@ figcaption {
     top: 40%
 }
 
-.lightbox-link {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b1d9c03c59e5c9330843a61_Video%20Smart%20City%20Vehicles.jpg);
-    background-position: 0 0;
-    background-size: 664px
-}
-
 .image-example-subpage {
     position: relative;
     display: block;
@@ -7400,16 +6787,6 @@ figcaption {
     float: none;
     border-radius: 5px;
     box-shadow: 4px 4px 22px -2px rgba(0,0,0,.51)
-}
-
-.lightbox-link-2 {
-    position: relative;
-    display: block;
-    width: 60px;
-    height: 60px;
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e2d63e6d5ce_Icon-play-white.png);
-    background-position: 0 0;
-    background-size: cover
 }
 
 .image-8 {
@@ -7946,42 +7323,9 @@ figcaption {
     margin-bottom: 10px
 }
 
-.subpage-header-about {
-    padding-top: 190px;
-    padding-bottom: 130px;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.7)),to(rgba(0,0,0,.45))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5ba5081be783e2ab9b2ff4b6_Header-Image-Careers.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.7),rgba(0,0,0,.45)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5ba5081be783e2ab9b2ff4b6_Header-Image-Careers.jpg);
-    background-position: 0 0,50% 100%;
-    background-size: auto,cover;
-    color: #fff;
-    text-align: center
-}
-
 .subpage-header-about.contact,.subpage-header-about.contact-1,.subpage-header-about.contact-2,.subpage-header-about.with-contact-info {
     background-position: 0 0,50% 50%;
     background-size: auto,cover
-}
-
-.subpage-header-about.contact {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(31,111,255,.9)),to(rgba(31,111,255,.9))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e1715e6d636_Photo-5.jpg);
-    background-image: linear-gradient(180deg,rgba(31,111,255,.9),rgba(31,111,255,.9)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e1715e6d636_Photo-5.jpg);
-    color: #fff
-}
-
-.subpage-header-about.contact-2 {
-    background-image: linear-gradient(135deg,rgba(31,111,255,.9) 24%,rgba(31,174,255,.9)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e555fe6d642_Photo-8.jpg)
-}
-
-.subpage-header-about.contact-1 {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(31,111,255,.87)),to(rgba(31,111,255,.87))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69ed259e6d637_Photo-4.jpg);
-    background-image: linear-gradient(180deg,rgba(31,111,255,.87),rgba(31,111,255,.87)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69ed259e6d637_Photo-4.jpg)
-}
-
-.subpage-header-about.with-contact-info {
-    position: relative;
-    padding-bottom: 230px;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.6)),to(rgba(0,0,0,.6))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e9ef7e6d5b8_Photo-5.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.6),rgba(0,0,0,.6)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e9ef7e6d5b8_Photo-5.jpg)
 }
 
 .contact-popup-prices,.contact-popup-support {
@@ -7993,112 +7337,14 @@ figcaption {
     background-color: rgba(31,35,42,.94)
 }
 
-.subpage-header-about.pricing-1 {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.4)),to(rgba(0,0,0,.4))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e14c4e6d56d_Photo-1.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.4),rgba(0,0,0,.4)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e14c4e6d56d_Photo-1.jpg);
-    background-position: 0 0,0 0;
-    background-size: auto,cover
-}
-
-.subpage-header-about.pricing-3 {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(31,111,255,.7)),to(rgba(31,111,255,.7))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e57a2e6d623_Photo-12.jpg);
-    background-image: linear-gradient(180deg,rgba(31,111,255,.7),rgba(31,111,255,.7)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e57a2e6d623_Photo-12.jpg);
-    background-position: 0 0,50% 50%;
-    background-size: auto,cover
-}
-
-.subpage-header-about.pricing-2 {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.6)),to(rgba(0,0,0,.6))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e08ede6d648_Photo-9.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.6),rgba(0,0,0,.6)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e08ede6d648_Photo-9.jpg);
-    background-position: 0 0,50% 100%;
-    background-size: auto,cover
-}
-
 .subpage-header-about.about-1,.subpage-header-about.about-2,.subpage-header-about.pricing-4,.subpage-header-about.pricing-5 {
     background-position: 0 0,50% 50%;
     background-size: auto,cover
 }
 
-.subpage-header-about.pricing-4 {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.4)),to(rgba(0,0,0,.4))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e14c4e6d56d_Photo-1.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.4),rgba(0,0,0,.4)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e14c4e6d56d_Photo-1.jpg)
-}
-
-.subpage-header-about.about-1 {
-    padding-top: 190px;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(25,27,31,.8)),to(rgba(25,27,31,.8))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69ed259e6d637_Photo-4.jpg);
-    background-image: linear-gradient(180deg,rgba(25,27,31,.8),rgba(25,27,31,.8)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69ed259e6d637_Photo-4.jpg);
-    text-align: left
-}
-
-.subpage-header-about.pricing-5 {
-    padding-bottom: 200px;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(31,111,255,.8)),to(rgba(31,111,255,.8))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e1715e6d636_Photo-5.jpg);
-    background-image: linear-gradient(180deg,rgba(31,111,255,.8),rgba(31,111,255,.8)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e1715e6d636_Photo-5.jpg)
-}
-
-.subpage-header-about.about-2 {
-    padding-top: 180px;
-    padding-bottom: 90px;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(31,111,255,.8)),to(rgba(31,111,255,.8))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e0b5de6d5a6_Photo-5.jpg);
-    background-image: linear-gradient(180deg,rgba(31,111,255,.8),rgba(31,111,255,.8)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e0b5de6d5a6_Photo-5.jpg)
-}
-
-.subpage-header-about.about-3 {
-    padding-bottom: 150px;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#000),color-stop(94%,rgba(0,0,0,.25))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b242315932c87d4082c0e7c_IMG-About-Us-01.jpg);
-    background-image: linear-gradient(180deg,#000,rgba(0,0,0,.25) 94%),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b242315932c87d4082c0e7c_IMG-About-Us-01.jpg);
-    background-position: 0 0,50% -5px
-}
-
 .subpage-header-about.about-5,.subpage-header-about.blog-1,.subpage-header-about.ui {
     background-position: 0 0,50% 50%;
     background-size: auto,cover
-}
-
-.subpage-header-about.about-5 {
-    padding-top: 250px;
-    padding-bottom: 170px;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.5))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e1d6fe6d638_Photo-6.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e1d6fe6d638_Photo-6.jpg)
-}
-
-.subpage-header-about.ui {
-    padding-top: 210px;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.5))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e4ac0e6d5fd_Photo-2.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e4ac0e6d5fd_Photo-2.jpg)
-}
-
-.subpage-header-about.blog-1 {
-    background-image: linear-gradient(180deg,rgba(31,111,255,.9),rgba(31,111,255,.9)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69ed259e6d637_Photo-4.jpg)
-}
-
-.subpage-header-about.sign-up-1 {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(31,111,255,.9)),to(rgba(31,111,255,.9))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69ed259e6d637_Photo-4.jpg);
-    background-image: linear-gradient(180deg,rgba(31,111,255,.9),rgba(31,111,255,.9)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69ed259e6d637_Photo-4.jpg);
-    background-position: 0 0,50% 0;
-    background-size: auto,cover
-}
-
-.subpage-header-about.blog-2 {
-    padding-top: 125px;
-    padding-bottom: 0;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(28,35,49,.9)),to(rgba(28,35,49,.9))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e1d6fe6d638_Photo-6.jpg);
-    background-image: linear-gradient(180deg,rgba(28,35,49,.9),rgba(28,35,49,.9)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e1d6fe6d638_Photo-6.jpg);
-    background-position: 0 0,50% 50%;
-    background-size: auto,cover
-}
-
-.subpage-header-about.smart-city-image {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.7)),to(rgba(0,0,0,.45))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b23dcd1932c8775d92bac66_Img-Smart-City-Page.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.7),rgba(0,0,0,.45)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b23dcd1932c8775d92bac66_Img-Smart-City-Page.jpg)
-}
-
-.subpage-header-about.retail-image {
-    padding-bottom: 130px;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.7)),to(rgba(0,0,0,.45))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b23dee0d09b8694bacfc6f0_Img-Retail-Page.jpg);
-    background-image: linear-gradient(180deg,rgba(0,0,0,.7),rgba(0,0,0,.45)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b23dee0d09b8694bacfc6f0_Img-Retail-Page.jpg);
-    background-position: 0 0,50% 100%
 }
 
 .div-block-18 {
@@ -8211,12 +7457,6 @@ figcaption {
     overflow: visible;
     padding-top: 100px;
     padding-bottom: 100px
-}
-
-.half-image-section.markets {
-    background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b18a8110ef35074587b6b4c_stock-photo-sale-shopping-fashion-and-people-concept-happy-young-woman-taking-photo-by-smartphone-at-shoe-774929761.jpg);
-    background-position: 0 0;
-    background-size: cover
 }
 
 .half-content-section._w-clearfix.dark {
@@ -8672,10 +7912,6 @@ html.w-mod-js [data-ix=fade-in-on-load-5] {
     .footer-inline-link {
         margin-right: 9px;
         font-size: 12px
-    }
-
-    .hero-background-video {
-        background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e08ede6d648_Photo-9.jpg)
     }
 
     .hero-block-overlay {
@@ -9216,10 +8452,6 @@ html.w-mod-js [data-ix=fade-in-on-load-5] {
         margin-bottom: 30px
     }
 
-    .video-section {
-        background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e4ac0e6d5fd_Photo-2.jpg)
-    }
-
     .transparant-menu-button {
         margin-right: 20px;
         background-color: rgba(0,0,0,.1)
@@ -9252,12 +8484,6 @@ html.w-mod-js [data-ix=fade-in-on-load-5] {
 
     .fixed-nav-menu-button.w--open {
         background-color: #000
-    }
-
-    .hero-video {
-        background-image: url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e08ede6d648_Photo-9.jpg);
-        background-position: 0 0;
-        background-size: 800px
     }
 
     .hero-overlay-block {
@@ -11239,11 +10465,6 @@ html.w-mod-js [data-ix=fade-in-on-load-5] {
         padding-left: 20px
     }
 
-    .image-section.ui-section {
-        background-image: linear-gradient(86deg,#eee 39%,hsla(0,0%,93.3%,.8)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b15671967a69e100be6d568_UI-Elements.jpg);
-        background-repeat: repeat,no-repeat
-    }
-
     .image-section-overlay {
         padding-top: 45px;
         padding-bottom: 45px
@@ -11264,22 +10485,6 @@ html.w-mod-js [data-ix=fade-in-on-load-5] {
 
     .image-section-overlay.dark {
         padding-top: 30px
-    }
-
-    .image-section-overlay.black {
-        background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(27,28,31,.77)),to(rgba(27,28,31,.77))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b806e3792736b30587d18b9_Img-Schedule-Your-Demo-03.jpg);
-        background-image: linear-gradient(180deg,rgba(27,28,31,.77),rgba(27,28,31,.77)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b806e3792736b30587d18b9_Img-Schedule-Your-Demo-03.jpg);
-        background-attachment: scroll,scroll
-    }
-
-    .image-section-overlay.black.subpage-footer-image {
-        height: 100%;
-        max-height: 330px;
-        padding-bottom: 20px;
-        background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,.69)),to(rgba(0,0,0,.69))),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b214d277fcaa10acafc6b3d_Img-Footer-MediaAndRetail-Page.jpg);
-        background-image: linear-gradient(180deg,rgba(0,0,0,.69),rgba(0,0,0,.69)),url(https://uploads-ssl.webflow.com/5b15671867a69e36f7e6d529/5b214d277fcaa10acafc6b3d_Img-Footer-MediaAndRetail-Page.jpg);
-        background-position: 0 0,0 50%;
-        background-size: auto,cover
     }
 
     .image-section-overlay-block {
