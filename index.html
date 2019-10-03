@@ -6,6 +6,8 @@
     <title>Emotion Analyzer</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href="./webflow.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
     <script type="text/javascript">
         WebFont.load({
@@ -28,6 +30,27 @@
 </head>
 
 <body>
+    <nav class="fixed-nav navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Emotion Analyzer</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <div>
         <div data-delay="8000" data-animation="slide" data-autoplay="1" data-duration="800" data-infinite="1"
             class="slider-2 w-slider">
@@ -84,13 +107,13 @@
     <div id="pricing-plans" class="section section-technology">
         <div class="w-container">
             <div class="section-title-wrapper">
-                <h2 class="section-title" data-ix="fade-in-on-scroll">Our core technology</h2>
-                <div class="section-description" data-ix="fade-in-on-scroll">Analyze your employees feedback with AI-enabled
+                <h2 class="section-title">Our core technology</h2>
+                <div class="section-description">Analyze your employees feedback with AI-enabled
                     services and applications.</div>
             </div>
         </div>
         <div data-duration-in="300" data-duration-out="100" class="technology-tabs w-tabs">
-            <div class="technology-tabs-menu w-tab-menu" data-ix="fade-in-on-scroll">
+            <div class="technology-tabs-menu w-tab-menu">
                 <a data-w-tab="Vision" class="tchnology-tab-button w-inline-block w-tab-link w--current">
                     <div>Vision</div>
                 </a>
@@ -102,27 +125,24 @@
                 </a>
             </div>
             <div class="tabs-content w-tab-content">
-                <div data-w-tab="Vision" class="ai-based-technology w-tab-pane w--tab-active"
-                    data-ix="fade-in-on-scroll">
+                <div data-w-tab="Vision" class="ai-based-technology w-tab-pane w--tab-active">
                     <div class="container _w-container w-container">
                         <div class="feature-text-block">
-                            <h2 class="main-feature-title" data-ix="fade-in-on-scroll">Emotion Recognition</h2>
-                            <p data-ix="fade-in-on-scroll">Automatically detect and recognize facial emotions of each
+                            <h2 class="main-feature-title">Emotion Recognition</h2>
+                            <p>Automatically detect and recognize facial emotions of each
                                 employees within the field of view.</p>
                             <div class="small-features-wrapper">
-                                <div data-ix="fade-in-on-scroll" class="long-feature-block title-only">
+                                <div class="long-feature-block title-only">
                                     <div class="long-feature-icon-wrapper">
-                                        <img src="./images/Icon-check-green.png"
-                                            height="25" alt="" />
+                                        <img src="./images/Icon-check-green.png" height="25" alt="" />
                                     </div>
                                     <div class="long-feature-title uppercase">Facial detection &amp; recognition</div>
                                     <div class="small-paragraph">Recognize each employee to gather employee specific
                                         data and build their profile overtime.</div>
                                 </div>
-                                <div data-ix="fade-in-on-scroll" class="long-feature-block title-only">
+                                <div class="long-feature-block title-only">
                                     <div class="long-feature-icon-wrapper">
-                                        <img src="./images/Icon-check-green.png"
-                                            height="25" alt="" />
+                                        <img src="./images/Icon-check-green.png" height="25" alt="" />
                                     </div>
                                     <div class="long-feature-title uppercase">Facial demographics</div>
                                     <div class="small-paragraph">Estimate age and gender of people to get more specific
@@ -130,20 +150,19 @@
                                 </div>
                             </div>
                         </div>
-                        <img src="./emotions.png" alt="" class="technology-example-right" data-ix="fade-in-on-scroll" />
+                        <img src="./emotions.png" width="450" alt="" class="technology-example-right" />
                     </div>
                 </div>
                 <div data-w-tab="Audio" class="ai-based-technology w-tab-pane">
                     <div class="container _w-container w-container">
                         <div class="feature-text-block">
-                            <h2 class="main-feature-title" data-ix="fade-in-on-scroll">Vocal Sentiment Analysis</h2>
-                            <p data-ix="fade-in-on-scroll">Automatically analyze the sentiment of the vocals of each
+                            <h2 class="main-feature-title">Vocal Sentiment Analysis</h2>
+                            <p>Automatically analyze the sentiment of the vocals of each
                                 employee within the hearing range.</p>
                             <div class="small-features-wrapper">
-                                <div data-ix="fade-in-on-scroll" class="long-feature-block title-only">
+                                <div class="long-feature-block title-only">
                                     <div class="long-feature-icon-wrapper">
-                                        <img src="./images/Icon-check-green.png"
-                                            height="25" alt="" />
+                                        <img src="./images/Icon-check-green.png" height="25" alt="" />
                                     </div>
                                     <div class="long-feature-title uppercase">Natural Language Processing
                                     </div>
@@ -151,10 +170,9 @@
                                         the spoken words.
                                     </div>
                                 </div>
-                                <div data-ix="fade-in-on-scroll" class="long-feature-block title-only">
+                                <div class="long-feature-block title-only">
                                     <div class="long-feature-icon-wrapper">
-                                        <img src="./images/Icon-check-green.png"
-                                            height="25" alt="" />
+                                        <img src="./images/Icon-check-green.png" height="25" alt="" />
                                     </div>
                                     <div class="long-feature-title uppercase">Speech Recognition</div>
                                     <div class="small-paragraph">Recognize the speaker from audio data to gather
@@ -162,37 +180,36 @@
                                 </div>
                             </div>
                         </div>
-                        <img src="./speech.png" alt="" class="technology-example-right" data-ix="fade-in-on-scroll" />
+                        <img src="./speech.png" width="450" alt="" class="technology-example-right" />
                     </div>
                 </div>
                 <div data-w-tab="Insights" class="ai-based-technology w-tab-pane">
                     <div class="container _w-container w-container">
                         <div class="feature-text-block">
-                            <h2 class="main-feature-title" data-ix="fade-in-on-scroll">Get insights into your data</h2>
-                            <p data-ix="fade-in-on-scroll">Visualize a bigger picture of your employees data.</p>
+                            <h2 class="main-feature-title">Get insights into your data</h2>
+                            <p>Visualize a bigger picture of your employees data.</p>
                             <div class="small-features-wrapper">
-                                <div data-ix="fade-in-on-scroll" class="long-feature-block title-only">
+                                <div class="long-feature-block title-only">
                                     <div class="long-feature-icon-wrapper">
-                                        <img src="./images/Icon-check-green.png"
-                                            height="25" alt="" />
+                                        <img src="./images/Icon-check-green.png" height="25" alt="" />
                                     </div>
                                     <div class="long-feature-title uppercase">
                                         Analyze trends in your data<br />
                                     </div>
-                                    <div class="small-paragraph">Estimate the major factors of employee negativity.</div>
+                                    <div class="small-paragraph">Estimate the major factors of employee negativity.
+                                    </div>
                                 </div>
-                                <div data-ix="fade-in-on-scroll" class="long-feature-block title-only">
+                                <div class="long-feature-block title-only">
                                     <div class="long-feature-icon-wrapper">
-                                        <img src="./images/Icon-check-green.png"
-                                            height="25" alt="" />
+                                        <img src="./images/Icon-check-green.png" height="25" alt="" />
                                     </div>
                                     <div class="long-feature-title uppercase">Predict future emotional states</div>
-                                    <div class="small-paragraph">See whether a particular employee will require a change in the environment for satisfaction.</div>
+                                    <div class="small-paragraph">See whether a particular employee will require a change
+                                        in the environment for satisfaction.</div>
                                 </div>
                             </div>
                         </div>
-                        <img src="./Analytics.png"
-                            alt="" class="technology-example-right" data-ix="fade-in-on-scroll" />
+                        <img src="./Analytics.png" width="450" alt="" class="technology-example-right" />
                     </div>
                 </div>
             </div>
@@ -202,17 +219,16 @@
         <div class="image-section-overlay color">
             <div class="container w-container">
                 <div class="section-title-wrapper">
-                    <h2 class="section-title" data-ix="fade-in-on-scroll">How we apply it</h2>
+                    <h2 class="section-title">How we apply it</h2>
                     <div class="div-block-3 white-line" data-ix="fade-in-on-load-3"></div>
-                    <div class="section-description" data-ix="fade-in-on-scroll-2">We utilize advanced computer vision
+                    <div class="section-description">We utilize advanced computer vision
                         to unlock the value of your images and videos across a variety of industries.</div>
                 </div>
                 <div class="feature-info-row w-row">
                     <div class="feature-info-column w-col w-col-4">
-                        <div class="feature-info-block" data-ix="fade-in-on-scroll-3">
+                        <div class="feature-info-block">
                             <div class="div-block-4 circle">
-                                <img src=""
-                                    alt="" class="feature-info-icon" />
+                                <img src="" alt="" class="feature-info-icon" />
                             </div>
                             <div class="feature-info-title">Smart cities</div>
                             <p class="feature-info-paragraph">We analyze visual data to turn anonymized video into
@@ -222,10 +238,9 @@
                         </div>
                     </div>
                     <div class="feature-info-column w-col w-col-4">
-                        <div class="feature-info-block" data-ix="fade-in-on-scroll-3">
+                        <div class="feature-info-block">
                             <div class="div-block-4 circle">
-                                <img src=""
-                                    alt="" class="feature-info-icon" />
+                                <img src="" alt="" class="feature-info-icon" />
                             </div>
                             <div class="feature-info-title">Retail &amp;ecommerce</div>
                             <p class="feature-info-paragraph">We help retailers &amp;e-commerce brands organize their
@@ -235,10 +250,9 @@
                         </div>
                     </div>
                     <div class="feature-info-column w-col w-col-4">
-                        <div class="feature-info-block" data-ix="fade-in-on-scroll-3">
+                        <div class="feature-info-block">
                             <div class="div-block-4 circle">
-                                <img src=""
-                                    alt="" class="feature-info-icon" />
+                                <img src="" alt="" class="feature-info-icon" />
                             </div>
                             <div class="feature-info-title">Media &amp;entertainment</div>
                             <p class="feature-info-paragraph">We analyze visual data across media platforms, tag and
@@ -254,7 +268,7 @@
     <div class="section">
         <div class="w-container">
             <div class="section-title-wrapper">
-                <h2 class="section-title" data-ix="fade-in-on-scroll">
+                <h2 class="section-title">
                     Easy and seamless integration. <br />
                     Simple pricing model that best fits your needs.<br />
                 </h2>
@@ -266,8 +280,7 @@
                 <div class="pricing-options w-col w-col-4">
                     <div class="pricing-block">
                         <div>
-                            <img src=""
-                                width="45" alt="" />
+                            <img src="" width="45" alt="" />
                         </div>
                         <div class="feature-info-title">Pricing</div>
                         <div class="pricing-info-2">
@@ -289,8 +302,7 @@
                 <div class="pricing-options w-col w-col-4">
                     <div class="pricing-block">
                         <div>
-                            <img src=""
-                                width="86" alt="" />
+                            <img src="" width="86" alt="" />
                         </div>
                         <div class="feature-info-title">Deployment scenarios</div>
                         <div class="pricing-info-2">
@@ -319,8 +331,7 @@
                 <div class="pricing-options w-col w-col-4">
                     <div class="pricing-block">
                         <div>
-                            <img src=""
-                                width="87" alt="" />
+                            <img src="" width="87" alt="" />
                         </div>
                         <div class="feature-info-title">Easy integration</div>
                         <div class="pricing-info-2">
