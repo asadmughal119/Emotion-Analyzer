@@ -2697,7 +2697,8 @@ figcaption {
     font-size: 40px;
     line-height: 48px;
     font-weight: 300;
-    text-align: center
+    text-align: center;
+    padding-top: 40px;
 }
 
 .hero-description,.white-hero-title {
@@ -3053,6 +3054,13 @@ figcaption {
 .image-section-overlay.pricing {
     background-color: rgba(44,46,49,.6)
 }
+.Services-Background{
+    background-color: rgba(82, 221, 214, 0.73);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(29,105,115,.25)),to(rgba(50,54,63,.61)));
+    background-image: linear-gradient(180deg,rgba(29,105,115,.25),rgba(50,54,63,.61))
+
+}
+
 
 .image-section-overlay.color {
     background-color: rgba(64,155,182,.93);
@@ -8827,7 +8835,8 @@ html.w-mod-js [data-ix=fade-in-on-load-5] {
     .section-title {
         margin-bottom: 10px;
         font-size: 30px;
-        line-height: 30px
+        line-height: 30px;
+        padding-top:30px !important
     }
 
     .section-title.large {
