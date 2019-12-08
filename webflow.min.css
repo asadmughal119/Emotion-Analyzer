@@ -1104,7 +1104,7 @@ label {
     height: 300px;
     -webkit-tap-highlight-color: transparent;
     tap-highlight-color: transparent;
-    background: url('./background.gif');
+    background: url('images/background.gif');
     background-size: cover;
 }
 
