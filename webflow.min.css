@@ -37,11 +37,15 @@ audio:not([controls]) {
 }
 
 a {
-    background-color: transparent
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
 }
 
 a:active,a:hover {
-    outline: 0
+    outline: 0;
+    color: white !important;
+    text-decoration: none !important;
 }
 
 abbr[title] {
@@ -2029,14 +2033,6 @@ p {
     margin-bottom: 15px
 }
 
-a {
-    text-decoration: underline
-}
-
-a:hover {
-    color: #000
-}
-
 li {
     margin-bottom: -3px;
     padding-left: 8px
@@ -2243,10 +2239,6 @@ figcaption {
     color: #fff
 }
 
-.button:hover,.dropdown-link.w--current:focus {
-    color: rgba(64,155,182,.93)
-}
-
 .container {
     position: relative;
     padding-bottom: 0
@@ -2319,9 +2311,9 @@ figcaption {
     margin-right: 15px;
     padding-right: 25px;
     padding-left: 25px;
-    border: 1px solid #1daacd;
+    border: 1px solid gray;
     border-radius: 3px;
-    background-color: #1daacd;
+    background-color: #666;
     -webkit-transition: border .2s ease;
     transition: border .2s ease;
     font-size: 12px;
@@ -2331,8 +2323,7 @@ figcaption {
 .button:hover {
     border-style: solid;
     border-width: 1px;
-    border-color: rgba(64,155,182,.93);
-    background-color: transparent
+    background-color: black;
 }
 
 .button.text-button {
@@ -3046,18 +3037,11 @@ figcaption {
     height: 100%;
     padding-top: 145px;
     padding-bottom: 105px;
-    background-color: rgba(44,46,49,.7);
     color: #fff
 }
 
 .image-section-overlay.pricing {
     background-color: rgba(44,46,49,.6)
-}
-
-.image-section-overlay.color {
-    background-color: rgba(64,155,182,.93);
-    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(29,105,115,.25)),to(rgba(50,54,63,.61)));
-    background-image: linear-gradient(180deg,rgba(29,105,115,.25),rgba(50,54,63,.61))
 }
 
 .image-section-overlay.dark-gradient {
@@ -3988,8 +3972,8 @@ figcaption {
     margin-bottom: 20px;
     padding: 50px 30px;
     border-radius: 4px;
-    background-color: #f0f4f7;
-    text-align: center
+    text-align: center;
+    border: 1px solid gray;
 }
 
 .pricing-title {
@@ -7082,7 +7066,7 @@ figcaption {
 }
 
 .pricing-title-color {
-    color: rgba(64,155,182,.93);
+    color: white;
     font-size: 14px
 }
 
