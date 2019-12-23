@@ -637,7 +637,7 @@ label {
     margin-left: auto;
     margin-right: auto;
     max-width: 940px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
 }
 
 .w-container .w-row {
@@ -7515,9 +7515,9 @@ html.w-mod-js [data-ix=fade-in-on-load-2],html.w-mod-js [data-ix=fade-in-on-load
 
 html.w-mod-js [data-ix=fade-in-on-scroll],html.w-mod-js [data-ix=fade-in-on-scroll-2],html.w-mod-js [data-ix=fade-in-on-scroll-3],html.w-mod-js [data-ix=slide-title],html.w-mod-js [data-ix=slide-title-2],html.w-mod-js [data-ix=slide-title-3],html.w-mod-js [data-ix=slide-title-4] {
     opacity: 0;
-    -webkit-transform: translate(0,20px);
-    -ms-transform: translate(0,20px);
-    transform: translate(0,20px)
+    -webkit-transform: translate(0,80px);
+    -ms-transform: translate(0,80px);
+    transform: translate(0,80px)
 }
 
 html.w-mod-js [data-ix=mockup-fade-in],html.w-mod-js [data-ix=mockup-fade-in-2] {
@@ -7556,10 +7556,8 @@ html.w-mod-js [data-ix=fade-in-on-load-5] {
 }
 
 .fixed-nav {
-    position: fixed !important;
     z-index: 999;
-    background: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(10px);
+    background: #292929;
 }
 
 .slide-1 {

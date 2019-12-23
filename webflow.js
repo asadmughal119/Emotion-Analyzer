@@ -10630,17 +10630,17 @@ Webflow.require('ix').init([{
         "style": {
             "opacity": 0,
             "x": "0px",
-            "y": "20px",
+            "y": "80px",
             "z": "0px"
         },
         "triggers": [{
             "type": "scroll",
             "offsetBot": "6%",
             "stepsA": [{
-                "wait": 200
+                "wait": 300
             }, {
                 "opacity": 1,
-                "transition": "transform 500ms ease 0ms, opacity 500ms ease 0ms",
+                "transition": "transform 750ms ease 0ms, opacity 750ms ease 0ms",
                 "x": "0px",
                 "y": "0px",
                 "z": "0px"
