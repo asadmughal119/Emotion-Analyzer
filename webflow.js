@@ -10637,7 +10637,7 @@ Webflow.require('ix').init([{
             "type": "scroll",
             "offsetBot": "6%",
             "stepsA": [{
-                "wait": 300
+                "wait": 200
             }, {
                 "opacity": 1,
                 "transition": "transform 750ms ease 0ms, opacity 750ms ease 0ms",
