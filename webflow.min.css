@@ -1979,8 +1979,7 @@ a,h3 {
 
 body {
     height: 100%;
-    background-color: #292929 !important;
-    color: #fff !important;
+    color: #000 !important;
     font-size: 15px;
     line-height: 23px
 }
@@ -3033,7 +3032,6 @@ figcaption {
     height: 100%;
     padding-top: 145px;
     padding-bottom: 105px;
-    color: #fff
 }
 
 .image-section-overlay.pricing {
@@ -6756,7 +6754,7 @@ figcaption {
     margin-bottom: 30px;
     padding: 45px;
     border-radius: 100px;
-    background-color: hsla(0,0%,100%,.71);
+    background-color: hsla(0, 0%, 66%, 0.71);
     text-align: center
 }
 
