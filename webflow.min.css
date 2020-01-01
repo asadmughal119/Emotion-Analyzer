@@ -14,8 +14,17 @@ html {
 }
 
 body {
+    height: 100%;
+    background-color: #221e3e !important;
+    font-size: 15px;
+    line-height: 23px;
     margin: 0;
-    min-height: 100%
+    min-height: 100%;
+}
+
+body * {
+    border-color: #695dbe !important;
+    color: #fff !important;
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
@@ -96,7 +105,8 @@ svg:not(:root) {
 
 hr {
 border: 0;
-border-top: 1px solid #777 !important;
+border-top: 2px solid;
+border-width: 2px !important;
 margin-bottom: 50px !important;
 }
 
@@ -1977,13 +1987,6 @@ a,h3 {
     display: none!important
 }
 
-body {
-    height: 100%;
-    color: #000 !important;
-    font-size: 15px;
-    line-height: 23px
-}
-
 h1 {
     margin-top: 0;
     margin-bottom: 20px;
@@ -2077,8 +2080,8 @@ figcaption {
     box-shadow: 0 0 33px 0 rgba(0,0,0,.2)
 }
 
-.nav-link,.nav-link:hover {
-    background-color: transparent
+.nav-link:hover {
+    background-color: #433c76;
 }
 
 .logo-block {
@@ -2308,7 +2311,7 @@ figcaption {
     padding-left: 25px;
     border: 1px solid gray;
     border-radius: 3px;
-    background-color: #666;
+    background-color: #7b6ed7;
     -webkit-transition: border .2s ease;
     transition: border .2s ease;
     font-size: 12px;
@@ -2857,7 +2860,7 @@ figcaption {
     margin-right: 3px;
     margin-left: 3px;
     border-radius: 3px 3px 0 0;
-    background-color: #777;
+    background-color: #433c76;
     transition: background-color .2s ease;
     color: #fff;
     font-size: 13px;
@@ -2865,12 +2868,12 @@ figcaption {
 }
 
 .tchnology-tab-button:hover {
-    background-color: #aaa;
+    background-color:#7b6ed7;
 }
 
 .tchnology-tab-button.w--current {
     border-radius: 3px 3px 0 0;
-    background-color: #129616;
+    background-color: #7b6ed7;
     color: #fff
 }
 
@@ -6754,7 +6757,7 @@ figcaption {
     margin-bottom: 30px;
     padding: 45px;
     border-radius: 100px;
-    background-color: hsla(0, 0%, 66%, 0.71);
+    background-color: rgba(255, 255, 255, 0.2);
     text-align: center
 }
 
@@ -7012,10 +7015,6 @@ figcaption {
 .text-block-2 {
     color: #4e4e4e;
     font-size: 14px
-}
-
-.row {
-    border-top: 1px solid #d0d0d0
 }
 
 .div-block-13,.image-11 {

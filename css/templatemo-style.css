@@ -56,7 +56,7 @@ small {
 }
 
 .tm-bg-white-transparent {
-     background-color: rgb(102, 102, 102);
+     background-color: rgba(255, 255, 255, 0.2);
 }
 
 .tm-brand-row {
@@ -252,7 +252,7 @@ small {
 .tm-feature-icon-container {
   width: 110px;
   height: 110px;
-  border: 1px solid #3E3F40;
+  border: 1px solid #fff !important;
   border-radius: 50%;  
   display: flex;
   align-items: center;
@@ -329,13 +329,13 @@ p {
 }
 
 .btn-tertiary {
-  background-color: #006868;
+  background-color: #7b6ed7;
   color: white;
   padding: 10px 60px;
 }
 
 .btn-tertiary:hover {
-  background-color: #099f9f;
+  background-color: #000;
   color: white;
 }
 
@@ -377,7 +377,7 @@ p {
 }
 
 .tm-bg-black-transparent {
-  background-color: rgba(15, 29, 32, 0.76);
+  background-color: rgba(255, 255, 255, 0.2);
   color: white;
 }
 
@@ -389,7 +389,7 @@ p {
   width: 83px;
   height: 83px;
   font-size: 2.2rem;
-  border: 1px solid white;
+  border: 1px solid white !important;
   display: flex;
   align-items: center;
   justify-content: center;
