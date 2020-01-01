@@ -2115,7 +2115,10 @@ figcaption {
     font-size: 13px;
     line-height: 12px;
     letter-spacing: 2px;
-    text-transform: uppercase
+}
+
+.navbar-brand {
+    margin-right: 3rem !important;
 }
 
 .nav-link.dropdown-toggle,.nav-link.dropdown-toggle.light {
@@ -3595,7 +3598,7 @@ figcaption {
 
 .client-logo {
     display: inline-block;
-    max-height: 67px;
+    max-height: 50px;
     margin: 5px;
     margin-right: 25px;
     -webkit-transition: opacity .2s ease;
@@ -7554,6 +7557,8 @@ html.w-mod-js [data-ix=fade-in-on-load-5] {
 .fixed-nav {
     z-index: 999;
     background: #292929;
+    position: fixed !important;
+    box-shadow: 0 2px 5px black;
 }
 
 .slide-1 {

@@ -102,7 +102,7 @@ small {
 
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding: 19px;
+  padding: 13px;
 }
 
 .navbar-light .navbar-nav .nav-link,
@@ -122,10 +122,6 @@ small {
 
 .nav-item {
   position: relative;  
-}
-
-.nav-link {
-  font-size: 1.2rem;
 }
 
 .nav-item .tm-nav-link-highlight {
