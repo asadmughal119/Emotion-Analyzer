@@ -6,6 +6,7 @@ legend,td,th {
     padding: 0
 }
 
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -7562,15 +7563,15 @@ html.w-mod-js [data-ix=fade-in-on-load-5] {
 }
 
 .slide-1 {
-    background-image: url('./images/track.png');
+    background-image: url('./images/track.jpg');
 }
 
 .slide-2 {
-    background-image: url('./images/insights.png');
+    background-image: url('./images/waves.jpg');
 }
 
 .slide-3 {
-    background-image: url('./images/feedback.webp');
+    background-image: url('./images/pillars.jpg');
 }
 
 @media (max-width: 991px) {
