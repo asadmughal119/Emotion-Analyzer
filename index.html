@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <title>SentTek Labs</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="./css/loader.css" rel="stylesheet" type="text/css" />
     <link href="./webflow.min.css" rel="stylesheet" type="text/css" />
     <link href="./css/animate.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -35,6 +36,9 @@
 </head>
 
 <body>
+    <div class="loader-wrapper">
+        <span class="loader"></span>
+    </div>
 
     <nav data-ix="fade-in-on-scroll" class="fixed-nav navbar navbar-expand-lg navbar-dark">
         <img src="./images/logo.png" class="client-logo">
@@ -484,6 +488,13 @@
     </div>
     <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <script>
+        $(window).on("load", function () {
+            $(".loader-wrapper").fadeOut(2000);
+        });
+    </script>
+
     <script src="./webflow.js" type="text/javascript"></script>
 </body>
 
