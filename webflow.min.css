@@ -2132,7 +2132,7 @@ figcaption {
 }
 
 .nav-link.w--current {
-    letter-spacing: 3px
+    background-color: #433c76;
 }
 
 .button,.footer-inline-link,.tchnology-tab-button {
