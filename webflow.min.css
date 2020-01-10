@@ -4861,7 +4861,8 @@ figcaption {
     padding-top: 50px;
     padding-bottom: 55px;
     background-color: #181a1d;
-    color: #6d7077
+    color: #6d7077;
+    margin-top: 70px;
 }
 
 .small-footer-title {
