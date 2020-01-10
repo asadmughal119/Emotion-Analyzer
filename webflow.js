@@ -8592,20 +8592,20 @@
                 }
             }
         }
-        function h() {
-            var t = u.scrollTop()
-              , n = u.height();
-            e.each(i, function(e) {
-                var r = e.link
-                  , i = e.sec
-                  , o = i.offset().top
-                  , a = i.outerHeight()
-                  , u = .5 * n
-                  , c = i.is(":visible") && o + a - u >= t && o + u <= t + n;
-                e.active !== c && (e.active = c,
-                E(r, l, c))
-            })
-        }
+        // function h() {
+        //     var t = u.scrollTop()
+        //       , n = u.height();
+        //     e.each(i, function(e) {
+        //         var r = e.link
+        //           , i = e.sec
+        //           , o = i.offset().top
+        //           , a = i.outerHeight()
+        //           , u = .5 * n
+        //           , c = i.is(":visible") && o + a - u >= t && o + u <= t + n;
+        //         e.active !== c && (e.active = c,
+        //         E(r, l, c))
+        //     })
+        // }
         function E(t, e, n) {
             var r = t.hasClass(e);
             n && r || (n || r) && (n ? t.addClass(e) : t.removeClass(e))
